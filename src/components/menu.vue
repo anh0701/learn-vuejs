@@ -5,9 +5,5 @@
     </ul>
 </template>
 
-<script>
-    export default{
-        name: 'Menu',
-        props:{}
-    }
+<script setup>
 </script>

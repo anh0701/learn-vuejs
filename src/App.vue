@@ -1,19 +1,12 @@
+
 <template>
-  <Menu></Menu>
-  <Home msg="hello world"></Home>
+  <Menu/>
+  <Home msg="hello world"/>
 </template>
 
-<script>
+<script setup>
 import Home from './components/home.vue';
 import Menu from './components/menu.vue';
-
-export default {
-  name: 'App',
-  components: {
-    Home,
-    Menu
-}
-}
 </script>
 
 <style>
