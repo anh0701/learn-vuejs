@@ -1,15 +1,17 @@
 <template>
-  <home msg="hello world"></home>
+  <Menu></Menu>
+  <Home msg="hello world"></Home>
 </template>
 
 <script>
-import home from './components/home.vue';
-
+import Home from './components/home.vue';
+import Menu from './components/menu.vue';
 
 export default {
   name: 'App',
   components: {
-    home
+    Home,
+    Menu
 }
 }
 </script>
